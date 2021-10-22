@@ -1,3 +1,8 @@
 FROM pytorch/pytorch:1.9.0-cuda11.1-cudnn8-runtime
-RUN pip install --no-cache-dir optuna
+RUN pip install --no-cache-dir \
+    matplotlib \
+    numpy \
+    optuna \
+    pandas \
+    sklearn
 ENTRYPOINT ["python"]
