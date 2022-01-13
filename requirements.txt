@@ -1,0 +1,9 @@
+matplotlib
+h5py
+numpy
+optuna
+pandas
+pickle5
+pymatgen
+sklearn
+tqdm
