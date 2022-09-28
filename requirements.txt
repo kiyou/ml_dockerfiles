@@ -8,3 +8,8 @@ pymatgen
 sklearn
 tqdm
 psycopg2
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
