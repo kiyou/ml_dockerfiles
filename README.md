@@ -22,4 +22,10 @@ Dockerfiles for pytorch machine learning environments with some packages
 
 ## Image Registry
 
-- [DockerHub](https://hub.docker.com/r/kiyou/ml-env/tags)
+- GitHub Container Registry
+
+    [ghcr.io/kiyou/ml-env](https://github.com/kiyou/latex-docker/pkgs/container/ml-env)
+
+- DockerHub
+
+    [kiyou/ml-env](https://hub.docker.com/r/kiyou/ml-env/tags)
