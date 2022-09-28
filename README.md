@@ -1,4 +1,6 @@
 # ML Dockerfiles
+[![GitHub Container Registry](https://github.com/kiyou/ml_dockerfiles/actions/workflows/ghcr.yml/badge.svg)](https://github.com/kiyou/ml_dockerfiles/actions/workflows/ghcr.yml)
+[![DockerHub](https://github.com/kiyou/ml_dockerfiles/actions/workflows/dockerhub.yml/badge.svg)](https://github.com/kiyou/ml_dockerfiles/actions/workflows/dockerhub.yml)
 
 Dockerfiles for pytorch machine learning environments with some packages
 
