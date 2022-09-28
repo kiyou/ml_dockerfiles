@@ -43,11 +43,3 @@ jobs:
           file: ./Dockerfile.pytroch_optuna_gpu
           push: true
           tags: ${{ secrets.DOCKER_HUB_USERNAME }}/ml-env:pytorch-gpu
-      -
-        name: Build and push tensorflow
-        uses: docker/build-push-action@v2
-        with:
-          context: .
-          file: ./Dockerfile.tensorflow_optuna_gpu
-          push: true
-          tags: ${{ secrets.DOCKER_HUB_USERNAME }}/ml-env:tensorflow-gpu
