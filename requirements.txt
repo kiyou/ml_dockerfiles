@@ -7,3 +7,10 @@ pickle5
 pymatgen
 sklearn
 tqdm
+psycopg2
+egnn-pytorch
+torch-scatter
+torch-sparse
+torch-cluster
+torch-spline-conv
+torch-geometric
