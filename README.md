@@ -7,6 +7,7 @@ Dockerfiles for pytorch machine learning environments with some packages
 ## Base Image
 
 - [pytorch/pytorch](https://hub.docker.com/r/pytorch/pytorch)
+- [continuumio/miniconda3](https://hub.docker.com/r/continuumio/miniconda3)
 
 ## Python Packages
 
