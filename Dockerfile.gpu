@@ -1,11 +1,12 @@
-ARG PYTORCH_VERSION=1.12.1
-ARG CUDA_VERSION=11.3
+ARG PYTORCH_VERSION=1.13.0
+ARG CUDA_VERSION=11.6
 FROM pytorch/pytorch:${PYTORCH_VERSION}-cuda${CUDA_VERSION}-cudnn8-runtime
 ARG PYTORCH_VERSION
 ARG CUDA_VERSION
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     gcc \
+    g++ \
     libpq-dev \
     && apt-get clean \
     && rm -rf /var/cache/apt/archives/* /var/lib/apt/lists/*
