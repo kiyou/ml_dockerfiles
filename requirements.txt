@@ -14,3 +14,4 @@ torch-sparse
 torch-cluster
 torch-spline-conv
 torch-geometric
+wandb
