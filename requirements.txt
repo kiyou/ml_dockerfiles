@@ -5,7 +5,7 @@ optuna
 pandas
 pickle5
 pymatgen
-sklearn
+scikit-learn
 tqdm
 psycopg2
 egnn-pytorch
