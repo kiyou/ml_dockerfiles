@@ -16,7 +16,7 @@ jobs:
         cuda-version: [11.6]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: docker/login-action@v2
         with:
           registry: ghcr.io
@@ -50,7 +50,7 @@ jobs:
         miniconda-version: [22.11.1]
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
       - uses: docker/login-action@v2
         with:
           registry: ghcr.io
