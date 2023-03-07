@@ -30,7 +30,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-      - uses: docker/metadata-action@v3
+      - uses: docker/metadata-action@v4
         id: meta-gpu
         with:
           images: ${{ secrets.DOCKER_HUB_USERNAME }}/ml-env
@@ -63,7 +63,7 @@ jobs:
         with:
           username: ${{ secrets.DOCKER_HUB_USERNAME }}
           password: ${{ secrets.DOCKER_HUB_ACCESS_TOKEN }}
-      - uses: docker/metadata-action@v3
+      - uses: docker/metadata-action@v4
         id: meta-cpu
         with:
           images: ${{ secrets.DOCKER_HUB_USERNAME }}/ml-env

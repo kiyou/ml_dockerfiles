@@ -22,7 +22,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: docker/metadata-action@v3
+      - uses: docker/metadata-action@v4
         id: meta-gpu
         with:
           images: ghcr.io/${{ github.actor }}/ml-env
@@ -56,7 +56,7 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
-      - uses: docker/metadata-action@v3
+      - uses: docker/metadata-action@v4
         id: meta-cpu
         with:
           images: ghcr.io/${{ github.actor }}/ml-env
