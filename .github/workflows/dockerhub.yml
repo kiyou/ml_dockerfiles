@@ -17,8 +17,8 @@ jobs:
   build-gpu:
     strategy:
       matrix:
-        pytorch-version: [1.13.1]
-        cuda-version: [11.6]
+        pytorch-version: [2.0.0]
+        cuda-version: [11.7]
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
@@ -54,7 +54,7 @@ jobs:
   build-cpu:
     strategy:
       matrix:
-        pytorch-version: [1.13.1]
+        pytorch-version: [2.0.0]
         miniconda-version: [22.11.1]
     runs-on: ubuntu-latest
     steps:
