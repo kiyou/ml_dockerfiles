@@ -1,6 +1,6 @@
-ARG MINICONDA_VERSION=22.11.1
+ARG MINICONDA_VERSION=23.9.0-0
 FROM continuumio/miniconda3:${MINICONDA_VERSION}
-ARG PYTORCH_VERSION=2.0.1
+ARG PYTORCH_VERSION=2.1.0
 RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
     && apt-get -y install --no-install-recommends \
     gcc \
